@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'merge_arrays_node = merge_arrays.merge_arrays_node:main',
         ],
     },
+
 )
